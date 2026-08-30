@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "rungs": [
+    {
+      "label": "8192 batching + 16 GiB/rank",
+      "kv_cache_bytes_per_rank": 17179869184,
+      "reported_kv_tokens": 2622494,
+      "reported_maximum_concurrency_at_1048576": 2.5,
+      "tests": {
+        "exact": true,
+        "tool_call": true,
+        "tool_continue": true,
+        "json": true,
+        "reasoning": false,
+        "code": true,
+        "vision": true,
+        "long_context": true
+      },
+      "all_pass": false,
+      "suite_seconds": null,
+      "long_context": {
+        "pass": true,
+        "prompt_tokens": 260066,
+        "seconds": 149.898
+      },
+      "disclosure": "The bounded reasoning probe is sampling-sensitive; do not attribute answer variance to KV size."
+    },
+    {
+      "label": "8192 batching + 20 GiB/rank",
+      "kv_cache_bytes_per_rank": 21474836480,
+      "reported_kv_tokens": 3245990,
+      "reported_maximum_concurrency_at_1048576": 3.1,
+      "tests": {
+        "exact": true,
+        "tool_call": true,
+        "tool_continue": true,
+        "json": true,
+        "reasoning": false,
+        "code": true,
+        "vision": true,
+        "long_context": true
+      },
+      "all_pass": false,
+      "suite_seconds": null,
+      "long_context": {
+        "pass": true,
+        "prompt_tokens": 260066,
+        "seconds": 164.069
+      },
+      "disclosure": "The bounded reasoning probe is sampling-sensitive; do not attribute answer variance to KV size."
+    },
+    {
+      "label": "8192 batching + 24 GiB/rank",
+      "kv_cache_bytes_per_rank": 25769803776,
+      "reported_kv_tokens": 3895606,
+      "reported_maximum_concurrency_at_1048576": 3.72,
+      "tests": {
+        "exact": true,
+        "tool_call": true,
+        "tool_continue": true,
+        "json": true,
+        "reasoning": true,
+        "code": true,
+        "vision": true,
+        "long_context": true
+      },
+      "all_pass": true,
+      "suite_seconds": null,
+      "long_context": {
+        "pass": true,
+        "prompt_tokens": 260066,
+        "seconds": 173.958
+      },
+      "disclosure": "The bounded reasoning probe is sampling-sensitive; do not attribute answer variance to KV size."
+    }
+  ]
+}

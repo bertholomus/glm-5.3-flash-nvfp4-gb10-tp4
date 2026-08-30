@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "status": "qualified_after_coordinated_cold_restart",
+  "configured_context_tokens": 1048576,
+  "strongest_exact_retrieval_prompt_tokens": 260066,
+  "concurrent_long_context": {
+    "wall_seconds": 234.634,
+    "results": [
+      {
+        "case": 1,
+        "seconds": 234.625,
+        "prompt_tokens": 240073,
+        "completion_tokens": 58,
+        "finish_reason": "stop",
+        "exact": true,
+        "replacement_chars": 0,
+        "text": "ALPHA-RETRIEVAL-1-732941|OMEGA-RETRIEVAL-1-581203"
+      },
+      {
+        "case": 2,
+        "seconds": 154.367,
+        "prompt_tokens": 240073,
+        "completion_tokens": 66,
+        "finish_reason": "stop",
+        "exact": true,
+        "replacement_chars": 0,
+        "text": "ALPHA-RETRIEVAL-2-732941|OMEGA-RETRIEVAL-2-581203"
+      }
+    ],
+    "all_pass": true
+  },
+  "bounded_six_request_concurrency": {
+    "wall_seconds": 18.447,
+    "all_pass": true,
+    "results": [
+      {
+        "case": 1,
+        "seconds": 18.017,
+        "marker": "KV24_CONCURRENCY_1_OK",
+        "marker_ok": true,
+        "replacement_chars": 0,
+        "completion_tokens": 237,
+        "finish_reason": "stop"
+      },
+      {
+        "case": 2,
+        "seconds": 16.371,
+        "marker": "KV24_CONCURRENCY_2_OK",
+        "marker_ok": true,
+        "replacement_chars": 0,
+        "completion_tokens": 226,
+        "finish_reason": "stop"
+      },
+      {
+        "case": 3,
+        "seconds": 17.764,
+        "marker": "KV24_CONCURRENCY_3_OK",
+        "marker_ok": true,
+        "replacement_chars": 0,
+        "completion_tokens": 227,
+        "finish_reason": "stop"
+      },
+      {
+        "case": 4,
+        "seconds": 17.9,
+        "marker": "KV24_CONCURRENCY_4_OK",
+        "marker_ok": true,
+        "replacement_chars": 0,
+        "completion_tokens": 233,
+        "finish_reason": "stop"
+      },
+      {
+        "case": 5,
+        "seconds": 16.83,
+        "marker": "KV24_CONCURRENCY_5_OK",
+        "marker_ok": true,
+        "replacement_chars": 0,
+        "completion_tokens": 207,
+        "finish_reason": "stop"
+      },
+      {
+        "case": 6,
+        "seconds": 18.44,
+        "marker": "KV24_CONCURRENCY_6_OK",
+        "marker_ok": true,
+        "replacement_chars": 0,
+        "completion_tokens": 229,
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "korean_unicode_probe": {
+    "base": "[REDACTED_PRIVATE_ENDPOINT]",
+    "model": "glm-5.3-flash",
+    "runs": [
+      {
+        "run": 1,
+        "seconds": 66.377,
+        "replacement_chars": 0,
+        "completion_tokens": 3072,
+        "finish_reason": "length",
+        "sample": ""
+      },
+      {
+        "run": 2,
+        "seconds": 64.522,
+        "replacement_chars": 0,
+        "completion_tokens": 3072,
+        "finish_reason": "length",
+        "sample": ""
+      },
+      {
+        "run": 3,
+        "seconds": 64.11,
+        "replacement_chars": 0,
+        "completion_tokens": 3072,
+        "finish_reason": "length",
+        "sample": "# \uc778\uacf5\uc9c0\ub2a5\uc758 \uc5ed\uc0ac: 1950\ub144\ub300\ubd80\ud130 \ud604\uc7ac\uae4c\uc9c0\n\n## 1950\ub144\ub300: \uc778\uacf5\uc9c0\ub2a5\uc758 \ud0c4\uc0dd\n\n\uc778\uacf5\uc9c0\ub2a5\uc758 \uac1c\ub150\uc801 \ud1a0\ub300\ub294 1950\ub144 \uc601\uad6d\uc758 \uc218\ud559\uc790 \uc568\ub7f0 \ud29c\ub9c1(Alan Turing)\uc774 \ub17c\ubb38 \u300c\ucef4\ud4e8\ud130 \uae30\uacc4\uc640 \uc9c0\ub2a5(Computing Machinery and Intelligence)\u300d\uc744 \ubc1c\ud45c\ud558\uba74\uc11c \ub9c8\ub828\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \uadf8\ub294 \"\uae30\uacc4\uac00 \uc0dd\uac01\ud560 \uc218 \uc788\ub294\uac00?\"\ub77c\ub294 \uc9c8\ubb38\uc744 \ub358\uc9c0\uba70, \uc778\uac04\uacfc \uae30\uacc4\uc758 \ub300\ud654\ub97c \ud1b5\ud574 \uae30\uacc4\uc758 \uc9c0\ub2a5\uc744 \ud310\ubcc4\ud558\ub294 **\ud29c\ub9c1 \ud14c\uc2a4\ud2b8**\ub97c \uc81c\uc548\ud588\uc2b5\ub2c8\ub2e4.\n\n1956\ub144 \uc5ec\ub984, \ubbf8\uad6d \ub2e4\ud2b8\uba38\uc2a4 \ub300\ud559\uc5d0\uc11c \uc874 \ub9e4\uce74\uc2dc(John McCarthy), \ub9c8\ube48 \ubbfc\uc2a4\ud0a4(Marvin Minsky), \ud074\ub85c\ub4dc \uc100\ub10c(Claude Shannon) \ub4f1\uc774 \uc8fc\ub3c4\ud55c **\ub2e4\ud2b8\uba38\uc2a4 \ud68c\uc758**\uac00 \uc5f4\ub838\uc2b5\ub2c8\ub2e4. \uc774 \ud68c\uc758\uc5d0\uc11c \ub9e4\uce74\uc2dc\uac00 \ucc98\uc74c\uc73c\ub85c \"\uc778\uacf5\uc9c0\ub2a5(Artificial Intelligence)\"\uc774\ub77c\ub294 \uc6a9\uc5b4\ub97c \uc0ac\uc6a9\ud588\uc73c\uba70, \uc774\ub294 AI\ub97c \ub3c5\ub9bd\ub41c \ud559\ubb38 \ubd84\uc57c\ub85c \ud0c4\uc0dd\uc2dc\ud0a8 \uc0ac\uac74\uc73c\ub85c \ud3c9\uac00\ubc1b\uc2b5\ub2c8\ub2e4.\n\n\uc774 \uc2dc\uae30\uc758 \uc8fc\uc694 \uc131\uacfc\ub85c\ub294 \ub274\uc6f0\uacfc \uc0ac\uc774\uba3c\uc758 **\ub17c\ub9ac \uc774\ub860\uac00(Logi"
+      }
+    ],
+    "total_replacement_chars": 0
+  },
+  "dflash2_metrics_snapshot": {
+    "draft_tokens_total": 23312,
+    "accepted_tokens_total": 7613
+  },
+  "privacy": "Response IDs, endpoints, hostnames, internal service names, and consumer identities are intentionally omitted.",
+  "limitations": [
+    "Configured 1M context is not a claim of 1M exact retrieval.",
+    "Earlier Unicode comparison used non-identical recorded output caps.",
+    "A low-budget arithmetic case varied across rungs; no reasoning improvement is attributed to KV size.",
+    "No BF16-parity or universal throughput claim is made."
+  ],
+  "post_restart": {
+    "ab_all_pass": true,
+    "tests": {
+      "exact": true,
+      "tool_call": true,
+      "tool_continue": true,
+      "json": true,
+      "reasoning": true,
+      "code": true,
+      "vision": true,
+      "long_context": true
+    },
+    "suite_seconds": 189.858,
+    "long_context_prompt_tokens": 260066,
+    "long_context_seconds": 171.619,
+    "korean_replacement_chars": 0,
+    "dflash2_metrics": {
+      "draft_tokens_total": 19371,
+      "accepted_tokens_total": 6661
+    },
+    "queue": {
+      "running": 0,
+      "waiting": 0
+    },
+    "watchdog": {
+      "result": "success",
+      "strikes": 0
+    },
+    "all_ranks": {
+      "running": true,
+      "oom_killed": false,
+      "restart_count": 0
+    },
+    "relevant_kernel_events": 0,
+    "memory_psi_avg10": 0.0,
+    "consumer_tool_loops": {
+      "profiles_tested": 2,
+      "all_pass": true
+    }
+  }
+}

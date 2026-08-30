@@ -1,0 +1,137 @@
+{
+  "repo": "RedHatAI/GLM-5.3-Flash-NVFP4",
+  "revision": "36c184c6cda000a481711306df5adde42f63321a",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 1635,
+      "sha256": null,
+      "blob_id": "aa7aacd0134a92c3c1943fdecc75cd8b7420cce6"
+    },
+    {
+      "path": "README.md",
+      "size": 2151,
+      "sha256": null,
+      "blob_id": "ab06e25bf2eb4708741b262403e3a44dd25c2ed3"
+    },
+    {
+      "path": "chat_template.jinja",
+      "size": 10644,
+      "sha256": null,
+      "blob_id": "fb94d40d72a2eefa0c7140cb66d941656be16969"
+    },
+    {
+      "path": "config.json",
+      "size": 53876,
+      "sha256": null,
+      "blob_id": "e62581648d702e1d270189b4efdc001ac2844279"
+    },
+    {
+      "path": "generation_config.json",
+      "size": 177,
+      "sha256": null,
+      "blob_id": "4d0ccb34a216be261fdd512ba17c48aac89dd26f"
+    },
+    {
+      "path": "model-00001-of-00010.safetensors",
+      "size": 20002894272,
+      "sha256": "6b6846fb90f68505d54dc143c517cfb6dc5e6e0e83d1335942027a8c54369abb",
+      "blob_id": "cf6138fd0e760bff45e08173b2f5eef9de46b8f6"
+    },
+    {
+      "path": "model-00002-of-00010.safetensors",
+      "size": 20002803476,
+      "sha256": "f8316bca081630a5a6b2c8cf6a2a760e9f409649d7759d3dbc9777d9d91bcca2",
+      "blob_id": "3151eb591e081dc4645b9c12e706b43352ff70cf"
+    },
+    {
+      "path": "model-00003-of-00010.safetensors",
+      "size": 20000726256,
+      "sha256": "e9b085e5e14cdfaff92c6efba2eede93ea5d370deffb36ec20ba31b4bb8883c6",
+      "blob_id": "b31830e8b35c3da34cfd6c49c77c2bfaa8c8fc4f"
+    },
+    {
+      "path": "model-00004-of-00010.safetensors",
+      "size": 20000334356,
+      "sha256": "97dca208b01884ffe6ae377553a773ba210094423e1b04580ebdebce55c21226",
+      "blob_id": "7f3ba4d9c2e7eef116a21d51b1734355b7a731e5"
+    },
+    {
+      "path": "model-00005-of-00010.safetensors",
+      "size": 20000724512,
+      "sha256": "8a1de5e06341aa90245bb40809847fee322c6548ec323f1889ead226f74c5c34",
+      "blob_id": "2eb15e4899f48c74802e562680c16c2e82ba7733"
+    },
+    {
+      "path": "model-00006-of-00010.safetensors",
+      "size": 20000331556,
+      "sha256": "2e6d80bdafe7a29ca9218086b9e02b6731f2358d80c18f78f8d86a1ad271b2cf",
+      "blob_id": "b1f3e64afc3c2ce2db434113a782bd3175031907"
+    },
+    {
+      "path": "model-00007-of-00010.safetensors",
+      "size": 20000725168,
+      "sha256": "d77c2e31860a92dea8be84fadb8b13a3932205bf0241a3944d4f055752b7bb4d",
+      "blob_id": "52890213117432f9be28449baf722485b115bfa0"
+    },
+    {
+      "path": "model-00008-of-00010.safetensors",
+      "size": 20000332348,
+      "sha256": "f0dc21ce2b1da1739e974cd2736a6fbdc58ddc0551dc5569f679ee5e7f63da93",
+      "blob_id": "2d0c68fc76e9f07e8bc123a2705b47683e8f3aea"
+    },
+    {
+      "path": "model-00009-of-00010.safetensors",
+      "size": 20000722232,
+      "sha256": "f11d8fdd3694491fa2c5a6fb47a28197f020a861ff194153d47a6bb8eeb7609a",
+      "blob_id": "eb89ada170edc8c6362973277f72e93bf00e2946"
+    },
+    {
+      "path": "model-00010-of-00010.safetensors",
+      "size": 10215657876,
+      "sha256": "2519e9daf2c153555e2ecd5d408edb0175c507d094729b55d9092d1385b382b6",
+      "blob_id": "7ffd0f910ee89b2a0dfe8bd79289820fa1dbc61d"
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size": 17055736,
+      "sha256": "015faae91e8189c7553f1d48ec3d0694b8c02b282d7f58af2d7b4064a81ce4c0",
+      "blob_id": "a55e90c8f83996e159e26cd2941c224c5afc977a"
+    },
+    {
+      "path": "model_mtp.safetensors",
+      "size": 7618560424,
+      "sha256": "0cf8dfdc936f1cbc33b9e88d0289ff3b5b4a3d0f7381158a8ccbebb9c8adc035",
+      "blob_id": "970dfe5efa6de979e5cf698ad306761ac5e14e1f"
+    },
+    {
+      "path": "processor_config.json",
+      "size": 909,
+      "sha256": null,
+      "blob_id": "3ec2a058b2cdec556eca0f621e8c5164eec213c2"
+    },
+    {
+      "path": "recipe.yaml",
+      "size": 1200,
+      "sha256": null,
+      "blob_id": "96b6cd466421c40cdc05e6be22581280b21039bb"
+    },
+    {
+      "path": "tokenizer.json",
+      "size": 20217541,
+      "sha256": "0cfe2c099a7702a0921abc315ee039deb51e4a34b4818fc509bd27fa3dc4acc1",
+      "blob_id": "c7edb3c9544185418004c88e219aae5cf34eedfa"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size": 790,
+      "sha256": null,
+      "blob_id": "0891a18eef6fc3d26dd2e87796ed39c7f91e3a77"
+    }
+  ],
+  "receipt": {
+    "file_count": 21,
+    "total_bytes": 197881157135,
+    "note": "sha256 is the upstream LFS object hash when available; blob_id is the Git blob/tree identity supplied by the Hub tree API."
+  }
+}

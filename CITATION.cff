@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If this deployment evidence or harness helps your work, please cite it."
+title: "GLM-5.3-Flash NVFP4 on 4x NVIDIA GB10: TP4 deployment validation"
+type: software
+authors:
+  - name: "BertholomusAI"
+repository-code: "https://github.com/bertholomus/glm-5.3-flash-nvfp4-gb10-tp4"
+url: "https://huggingface.co/bertholomus/GLM-5.3-Flash-NVFP4-4xGB10-TP4"
+license: MIT
+version: 1.0.0
+date-released: 2026-08-30

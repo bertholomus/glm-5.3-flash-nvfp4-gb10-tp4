@@ -1,0 +1,34 @@
+{
+  "status": "independently_validated_operational_formula",
+  "hardware": {
+    "nodes": 4,
+    "accelerator": "NVIDIA GB10",
+    "topology": "tensor_parallel_4"
+  },
+  "target": {
+    "repository": "RedHatAI/GLM-5.3-Flash-NVFP4",
+    "revision": "36c184c6cda000a481711306df5adde42f63321a",
+    "served_model_id": "glm-5.3-flash"
+  },
+  "draft": {
+    "repository": "incoai/GLM-5.3-Flash-DFlash2",
+    "method": "dflash",
+    "speculative_tokens": 7,
+    "license_metadata": "cc-by-nc-nd-4.0"
+  },
+  "runtime": {
+    "local_image_id": "sha256:1e9709af497226a671a7f2a59c24fbcd298a74fdc2ff0fcd51e9ce7ee9f07029",
+    "public_image_digest_available": false,
+    "max_model_len": 1048576,
+    "max_num_seqs": 6,
+    "max_num_batched_tokens": 8192,
+    "block_size": 2304,
+    "kv_cache_dtype": "fp8_e4m3",
+    "kv_cache_bytes_per_rank": 25769803776,
+    "gpu_memory_utilization": 0.85,
+    "execution": "eager",
+    "moe_backend": "marlin",
+    "tool_call_parser": "glm47",
+    "reasoning_parser": "glm45"
+  }
+}

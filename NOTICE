@@ -1,0 +1,9 @@
+This repository contains original BertholomusAI documentation and test tooling under the MIT License.
+
+It does not contain third-party model weights.
+
+Upstream model and runtime artifacts retain their own terms:
+- GLM-5.3-Flash: copyright Z.AI Co., Ltd; upstream MIT license.
+- RedHatAI/GLM-5.3-Flash-NVFP4: linked external checkpoint; no redistribution is performed here.
+- incoai/GLM-5.3-Flash-DFlash2: upstream metadata reports CC BY-NC-ND 4.0; no redistribution or modification is performed here.
+- vLLM and LLM Compressor: use and redistribution remain governed by their upstream licenses.
