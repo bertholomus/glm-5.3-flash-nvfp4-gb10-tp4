@@ -1,5 +1,7 @@
 # GLM-5.3-Flash NVFP4 on 4× NVIDIA GB10 (TP4)
 
+> **Archived.** This GLM-5.3-Flash NVFP4 validation recipe is no longer maintained. For GLM-5.3 on four DGX Sparks, see [bertholomus/glm-5.3-exlr8-4x-spark](https://github.com/bertholomus/glm-5.3-exlr8-4x-spark). This repository is read-only.
+
 > **Independent BertholomusAI deployment-validation and evidence package.** This repository contains no model weights and is not affiliated with Z.AI, Red Hat, IncoAI, NVIDIA, or the vLLM project.
 
 This package documents a qualified four-node tensor-parallel deployment of [`RedHatAI/GLM-5.3-Flash-NVFP4`](https://huggingface.co/RedHatAI/GLM-5.3-Flash-NVFP4), derived from [`zai-org/GLM-5.3-Flash`](https://huggingface.co/zai-org/GLM-5.3-Flash), with FP8 KV cache and the separately licensed [`incoai/GLM-5.3-Flash-DFlash2`](https://huggingface.co/incoai/GLM-5.3-Flash-DFlash2) draft.
